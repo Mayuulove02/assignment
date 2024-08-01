@@ -75,7 +75,7 @@ const DonutChart = () => {
   ];
 
   return (
-    <div>
+    <div className='rounded-lg border border-gray-200'>
       <h3 className='bg-[#FFFDD2] text-[#000] text-center p-2 mb-4 text-2xl'>Wallets</h3>
       <div className="relative w-72 h-72 mx-auto mb-8">
         <Doughnut data={data} options={options} />
@@ -87,12 +87,12 @@ const DonutChart = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-4" style={{margin:"auto",width:"40%",border:"1px solid red"}}>
+      <div className="grid grid-cols-2 gap-4 px-4 mb-2" style={{margin:"auto"}}>
         {data1.map((item, index) => (
           <div key={index} className="flex items-center gap-4 text-left">
             <div className="w-4 h-4 rounded-full" style={{ backgroundColor: item.color }}></div>
             <div className="flex-1">
-              <p className="font-semibold">{item.text}</p>
+              <p className="font-semibold text-xs">{item.text}</p>
               <p className="text-sm">{item.number} users</p>
             </div>
           </div>

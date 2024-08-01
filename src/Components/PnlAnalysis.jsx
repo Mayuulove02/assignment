@@ -58,12 +58,12 @@ const PnlAnalysis = () => {
     ];
 
     return (
-        <div className='p-2'>
+        <div>
             <div>
-                <img src={pnl} alt="PNL" style={{margin:"auto"}}/>
+                <img src={pnl} alt="PNL"/>
             </div>
-            <div>
-                <h3 className='bg-[#F0E303] rounded-md h-8 font-semibold text-xl mt-2 text-center'>
+            <div className='p-2'>
+                <h3 className='bg-[#F0E303] rounded-md h-8 font-medium text-xl mt-1 text-center'>
                     PNL Analysis
                 </h3>
                 <div className='flex gap-2 mt-2 justify-center'>
@@ -102,22 +102,22 @@ const PnlAnalysis = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 text-center">
-                    <h3 className="text-4xl font-bold">129,00.000</h3>
-                    <p className='bg-[#DBDBDB] text-center py-1 w-full max-w-xs mx-auto rounded-full'>~$898,090.0000</p>
+                <div className="mb-4 text-center mt-2">
+                    <h3 className="text-4xl font-semibbold">129,00.000</h3>
+                    <p className='bg-[#DBDBDB] text-center py-1 w-full max-w-xs mx-auto rounded-full mt-2'>~$898,090.0000</p>
                 </div>
                 <div className="mb-4 grid grid-cols-4 gap-4 justify-items-center">
                     {data.map((item, index) => (
-                        <div key={index} className="flex flex-col items-center p-2 border rounded-full h-24 w-24" style={{backgroundColor:`${item.color}`}}>
-                            <img src={item.img} alt={item.title} className="w-6 h-6 mb-2" />
-                            <span className="text-lg">{item.title}</span>
+                        <div key={index} className="flex flex-col items-center p-2 border rounded-full h-16 w-16" style={{backgroundColor:`${item.color}`}}>
+                            <img src={item.img} alt={item.title} className="w-6 h-6" />
+                            <span className="text-xs">{item.title}</span>
                         </div>
                     ))}
                 </div>
                 <div className="grid grid-cols-3 gap-4">
                     {data1.map((item, index) => (
                         <div key={index} className="p-4 border rounded-lg" style={{backgroundColor:`${item.bgColor}`}}>
-                            <h4 className="text-lg font-semibold">{item.text}</h4>
+                            <h4 className="text-sm font-semibold">{item.text}</h4>
                             <p style={{color:`${item.color}`}} className='text-xl font-semibold'>{item.percent}</p>
                             <p className="text-gray-800" style={{color:`${item.color}`}}>{item.price}</p>
                             <p className="text-white bg-[#000] rounded-full w-24 mx-auto text-center">{item.day}</p>
