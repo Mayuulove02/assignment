@@ -11,7 +11,8 @@ https://assignment.vercel.app
 ### Wallet Page
 - **Reusable Component:** Created reusable component library for button, cards, searchbar and navbar.
 - **Graphical Representation:** Provides graphical representation of transaction history for better analysis and decision-making. Implemented interactive features such as tooltips, zooming, and panning for charts.
-- **Comprehensive Dashboard:** Offers a comprehensive dashboard with detailed insights into transaction trends and financial summaries.
+- **Comprehensive Wallet :** Offers a comprehensive dashboard with detailed insights into transaction trends and financial summaries.
+- **Marquee:** Marquees show the real time market data.
 
 
 ## Tech Stack
