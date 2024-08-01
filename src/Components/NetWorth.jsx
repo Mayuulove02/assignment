@@ -94,7 +94,7 @@ const AnalyticsCard = () => {
             <h3 className='bg-[#FFFDD2] text-[#000] text-center p-2 mb-4 text-2xl font-semibold'>
                 Assets Net Worth
             </h3>
-            <div className="flex flex-row items-center mb-4 justify-between p-4  h-48">
+            <div className="flex flex-row items-center mb-4 justify-between p-4  h-44">
             <div >
                 <p className='bg-[#000] text-white rounded-full w-44 h-26 flex items-center justify-center text-xl'>
                     +$123,90,90.98

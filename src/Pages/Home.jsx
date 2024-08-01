@@ -19,7 +19,7 @@ const Home = () => {
             <div className='flex flex-row justify-between'>
               <div style={{ width: "75%" }}>
                 <div className='flex flex-row gap-1' >
-                  <div style={{ width: "100%" }}>
+                  <div style={{ width: "55%" }}>
                     <NetWorth />
                   </div>
                   <div style={{ width: "100%" }}>
