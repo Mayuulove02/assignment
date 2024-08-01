@@ -3,7 +3,7 @@
 Welcome to Frontend Assignment!
 
 ## Deployed Link
-https://assignment.vercel.app
+https://assignment-beta-ruddy.vercel.app/
 
 
 ## Features
